@@ -145,6 +145,7 @@ $join_date = $row['join_date'];
             </div>
         </div>
     </div>
+    
 </body>
 
 </html>
