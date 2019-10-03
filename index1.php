@@ -67,7 +67,7 @@ $jsonfile = json_decode($getfile);
      <td><a href="<?php $_SERVER['HTTP_HOST'];?>/<?php echo $obj->source; ?>" target="_blank"><?php echo $obj->source; ?></a></td>
      <td>
       <a class="btn btn-xs btn-primary" href="update1.php?id=<?php echo $index; ?>">Edit</a>
-      <a class="btn btn-xs btn-danger" href="delete1.php?id=<?php echo $index; ?>">Delete</a>
+      <a class="btn btn-xs btn-danger" href="delete.php?id=<?php echo $index; ?>">Delete</a>
      </td>
     </tr>
     <?php endforeach; ?>

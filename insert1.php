@@ -14,9 +14,9 @@
     }
 ?>
 <!DOCTYPE html>
-<html lang="en">https://github.com/nirajkumar786/nirajdbcurd.git
+<html lang="en">
 
-<head>
+<head><head><head><head><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="tutorial-boostrap-merubaha-warna">
@@ -34,6 +34,134 @@
 
 <body>
     <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h4>JSON CRUD</h4>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            </div>
+        </div>
+
+    </nav>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tutorial-boostrap-merubaha-warna">
+    <meta name="author" content="ilmu-detil.blogspot.com">
+    <title>Tutorial CRUD JSON DATA</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style type="text/css">
+    .navbar-default {
+        background-color: #3b5998;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h4>JSON CRUD</h4>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            </div>
+        </div>
+
+    </nav>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tutorial-boostrap-merubaha-warna">
+    <meta name="author" content="ilmu-detil.blogspot.com">
+    <title>Tutorial CRUD JSON DATA</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style type="text/css">
+    .navbar-default {
+        background-color: #3b5998;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h4>JSON CRUD</h4>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            </div>
+        </div>
+
+    </nav>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tutorial-boostrap-merubaha-warna">
+    <meta name="author" content="ilmu-detil.blogspot.com">
+    <title>Tutorial CRUD JSON DATA</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style type="text/css">
+    .navbar-default {
+        background-color: #3b5998;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h4>JSON CRUD</h4>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            </div>
+        </div>
+
+    </nav>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tutorial-boostrap-merubaha-warna">
+    <meta name="author" content="ilmu-detil.blogspot.com">
+    <title>Tutorial CRUD JSON DATA</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style type="text/css">
+    .navbar-default {
+        background-color: #3b5998;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    </style>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -75,13 +203,16 @@
                     </div>
                     <div class="form-actions">
                         <button type="submit" class="btn btn-success">Create</button>
-                        <a class="btn btn btn-default" href="index1.php">Back</a>
+                        <a class="btn btn btn-default" href="index.php">Back</a>
                     </div>
                 </form>
             </div>
         </div>
     </div>
+    
+<?php include("footer.php");?>
 </body>
 
 </html>
+
 

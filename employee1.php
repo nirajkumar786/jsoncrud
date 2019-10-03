@@ -35,7 +35,7 @@
 </div>
 <div class="container">
  <div class="btn-toolbar">
-  <a class="btn btn-primary" href="add1_employee.php"><i class="icon-plus"></i> Add new employee</a>
+  <a class="btn btn-primary" href="add1_emp.php"><i class="icon-plus"></i> Add new employee</a>
   
   
   
@@ -48,7 +48,9 @@
 include("connection1.php");
 //$status=$_GET['status'];
 error_reporting(0);
-$result = mysqli_query($con1,"SELECT * FROM employee");
+$result = mysqli_query($con1,"SELECT employee.*, salary.salary from employee inner join salary on salary.emp_no= employee.emp_no");
+
+
 ?>
 <div class="container">
  <div class ="row">
@@ -89,10 +91,10 @@ if (mysqli_num_rows($result) > 0) {
     <td><?php echo $row["join_date"]?></td>
     
        <td>
-     <a class="btn btn-xs btn-primary" href="add1_employee.php?emp_no=<?php echo $row['emp_no'] ?>">Edit</a>
+     <a class="btn btn-xs btn-primary" href="update1.php?emp_no=<?php echo $row['emp_no'] ?>">Edit</a>
 
 
-      <a class="btn btn-xs btn-danger" href="delete1_employee.php?emp_no=<?php echo $row['emp_no'] ?>">Delete</a>
+      <a class="btn btn-xs btn-danger" href="delete1.php?emp_no=<?php echo $row['emp_no'] ?>">Delete</a>
      </td>
 </tr>
 <?php

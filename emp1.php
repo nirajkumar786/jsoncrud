@@ -13,18 +13,23 @@ $Joindate = $_POST['join_date'];
 $result = "INSERT INTO `employee`(`first_name`, `last_name`, `dob`, `gender`, `join_date`) VALUES 
 ('$Firstname','$Lastname','$DOB','$Gender','$Joindate')";
 
-$data=mysqli_query($con1,$result);
+$con1->query($result)or die("error");
+$data = $con1->insert_id;
+//echo $data;
+//echo $result;
+
+//echo $query;die;
+
 if($data)
 {
-	 
-	 header('Location:employee1.php?status=1');
-}	
-else 
-{
-	echo $sam1;
-	
-	echo "not inserted";
+  $query1 = "INSERT INTO `salary`(`emp_no`, `salary`) VALUES ('$data','$Salary')";
+ 
 }
+//echo $query1;
+$con1->query($query1) or die($con1->error);
+header('Location:employee1.php');
+
+
 ?>
 
 
